@@ -1,3 +1,4 @@
+import { ArrowDownAZ } from "lucide-react";
 import { CircleUser, Search, ShoppingCart } from "lucide-react";
 
 function Headers({ cartCount }) {
@@ -16,6 +17,7 @@ function Headers({ cartCount }) {
           placeholder="Cari produk..."
           className="bg-transparent outline-none w-full text-sm text-gray-700 placeholder-gray-400"
         />
+        <ArrowDownAZ />
       </div>
 
       {/* Icons Section */}

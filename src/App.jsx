@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Headers from "../components/Headers";
-import MainContent from "../components/MainContent";
-import Footers from "../components/Footers";
+import Headers from "./components/Headers";
+import MainContent from "./components/MainContent";
+import Footers from "./components/Footers";
 
 function App() {
   const [cartCount, setCartCount] = useState(0);
